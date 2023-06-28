@@ -1,0 +1,149 @@
+h1 {
+    color: black;
+    position: absolute;
+    font-size: 300%;
+    left: 20cm;
+    top: 2cm;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+#Amarillo {
+    background-color: rgb(243, 203, 23);
+    position:static;
+    width: 33cm;
+    height: 5cm;
+}
+
+#Negro {
+    background-color: black;
+    position: static;
+    width: 15cm;
+    height: 30cm;
+}
+
+#Rostro 
+img {
+    position:absolute;
+    height: 250px;
+    width: 190px;
+    margin-top: 2cm;
+    margin-left: 13em;
+    border-radius: 10em;
+}
+
+.Duración {
+    color: grey;
+}
+
+.TítuloIzquierda {
+    color:black;
+    background-color: white;
+    border-radius: 5em;
+}
+
+.TítuloIzquierda:hover {
+    color:black;
+    background-color: rgb(243, 203, 23);
+    border-radius: 5em;
+}
+
+.TítuloDerecha {
+    color: white;
+    background-color: black;
+    border-radius: 5em;
+}
+
+.TítuloDerecha:hover {
+    color:black;
+    background-color: rgb(243, 203, 23);
+    border-radius: 5em;
+}
+
+#Subrayado {
+    color:black;
+    text-decoration: underline;
+}
+
+.PrimeraLetra::first-letter {
+    color: rgb(243, 203, 23);
+    font-size: 150%;
+}
+
+#Antropología {
+    position: absolute;
+    width: max-content;
+    height:max-content;
+    margin-top: 6cm;
+    left: 17cm;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Perfil
+{
+    color: white;
+    position: absolute;
+    width: max-content;
+    height:max-content;
+    margin-top: 20em;
+    margin-left: 2em;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Informática
+{
+    color: white;
+    position:absolute;
+    width: max-content;
+    height:max-content;
+    margin-top: 15cm;
+    margin-left: 2em;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Complementaria {
+    color:white;
+    position: absolute;
+    width: max-content;
+    height:max-content;
+    margin-top: 21cm;
+    margin-left: 2em;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#Experiencia {
+    width: max-content;
+    height:max-content;
+    margin-top: 11cm;
+    left: 17cm;
+    position: absolute;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#Contacto
+{
+    color: black;
+    width: max-content;
+    height: max-content;
+    position:absolute;
+    left: 19cm;
+    margin-top: 22cm;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Contacto
+    img{
+    width: 1pc;
+    height: 1pc;
+    }
+
