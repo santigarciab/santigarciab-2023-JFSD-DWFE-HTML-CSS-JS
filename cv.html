@@ -10,14 +10,23 @@
     <title> CV - Santiago Garcia </title>
 </head>
 <body>
-    <div id="Negro"> 
+    <div id="Negro">
+        <!-- El CV estará dividido en dos: en la izquierda 
+            color negro y en la derecha color blanco. -->
     <div id="Amarillo">
+        <!-- Además tendrá una cabecera que unirá por
+         arriba los fondos, el nombre y la foto de perfil. -->
     <h1> Santiago Garcia </h1>
     <div id="Rostro">
-    <img src="Foto CV.png">
+        <!-- Lo intenté pero debo practicar más con Javascript dado que no aprendí a utilizarlo correctamente, lo siento mucho -->
+    <img src="Foto CV.png" onmouseover="Agrandar('Rostro')" onmouseleave="Alejar('Rostro')">
+<!-- Agregué un commit más para poder modificar los bordes blancos de la imagen, para que se pueda ver mejor redondeada. -->
 </div>
                             <div id="Informática">
                                 <h2 class="TítuloIzquierda">  Informática </h2>
+                                <!--Del lado izquierdo del CV van a ir los 
+                                selectores de clase "TítuloIzquierda" los cuales
+                                 se irán intercalando con los de la derecha. -->
                                 <h5>Fotografía, filmación y edición. Adobe Ilustrator, Photoshop y Canva. </p>
                                 <p> Adobe Premiere y Movavi nivel avanzado. Blockchain Holding, Trading y Staking. </p>
                                 <p> Redes sociales, G-mail, Outlook. Diseño Web con NicePage. </p>
@@ -27,9 +36,13 @@
                              </div>
                                 <div id="Experiencia"> 
                                  <h2 class="TítuloDerecha"> Experiencia laboral </h2>
+                                 <!--Del lado derecho del CV van a ir
+                                     los selectores de clase "TítuloDerecha". -->
                                 <h3> Ventas, administración y diseño - Náutica Uno. </h3>
                                <h5 class="Duración"> Mayo 2017 - Junio 2023 | Rosario - Bv. Avellaneda 886 BIS. </h5>
-                               <h4 class="Subrayado"> Principales responsabilidades: </h4> 
+                               <!--En color gris van a ir los selectores de clase 
+                                "Duración" para representar duración de cursos y trabajos. -->
+                               <h4 id="Subrayado"> Principales responsabilidades: </h4> 
                                     <h5> <p> Vender embarcaciones, motores fuera de borda y accesorios náuticos. </p>
                                     <p> Fotografiar, diseñar, editar y crear contenido para redes sociales con anuncios. </p>
                                     <p>Generar facturas A y B y crear notas de crédito y débito con Dux Software y AFIP. </p>
@@ -63,15 +76,19 @@
                                                             <h5 class="Duración"> Finalizado, Enero 2023 | Abril 2023. </h5>
                                                         </div>
                                         <div id="Contacto">
+                                            <!-- Aquí irán algunas imágenes de decoración 
+                                                en estilo de íconos para el contacto personal. -->
                                             <h2  class="TítuloDerecha"> Información de contacto </h2>
                                         <h4> <p> <img src="Correo Electrónico.png"> santiagogarcia@tutanota.com </p> 
                                         <p> <img src="Teléfono Celular.png"> (+54) - 3413154919   </p>
                                         <p> <img src="Fecha de Nacimiento.png"> Fecha de nacimiento: 04/09/1997 </p>
-                                        <p> <img src="LinkedIN.png"> www.linkedin.com/in/santiagogarcia-LK </p> 
+                                        <!-- Se me ocurrió a lo último de la modificación del archivo html agregar un hipervínculo al perfil de LinkedIn. -->
+                                        <div id="LinkedIN"> <p> <img src="LinkedIN.png"> <a href="https://www.linkedin.com/in/santiagogarcia-lk"> www.linkedin.com/in/santiagogarcia-lk </a> </p> </div>
                                          </h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                 </body>
+                    <script src="./programacion.js"></script>
+           </body>
 </html>
